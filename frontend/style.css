@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+
+.bg-dark {
+    background-color: #232323;
+}
+
+.bg-grey {
+    background-color: #c1c1c1;
+}
+
+.header {
+    background-color: #303030;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5% 3%;
+}
+
+.logo {
+    color: white;
+    font-size: 2rem;
+}
+
+.links {
+    align-items: center;
+    display: flex;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+.entrega {
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    border: 1px solid #232323;
+    justify-content: space-evenly;
+    margin: 3% auto;
+    padding: 2%;
+}
+
+.coleta-destino p {
+    color: white;
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+}
